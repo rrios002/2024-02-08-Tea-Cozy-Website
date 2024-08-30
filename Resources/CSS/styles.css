@@ -1,0 +1,160 @@
+body{
+    background-color: black;
+    font-family: Helvetica;
+    color: seashell;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+.header{
+    display:inline-flex;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+.header img{
+    height: 50px;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.header ul{
+    margin-left: auto;
+}
+
+.header a{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: seashell;
+}
+#mission{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../Images/img-mission-background.jpg);
+    width: 1200px;
+    height: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mission h2{
+    width: 1200px;
+    background-color: black;
+    height: 50px;
+    margin-top: auto;
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+
+#mission h4{
+    width: 1200px;
+    background-color: black;
+    height: 35px;
+    margin-bottom: auto;
+    margin-top: 0;
+}
+
+#feature_tea{
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#feature_tea h2{
+    width: 1000px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+#feature_tea h4{
+    width: 1000px;
+}
+
+.image_teas{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_container{
+    width: 300px;
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.img_container img{
+    height: 200px;
+}
+
+.img_container h4{
+    margin-top: 10px;
+}
+#locations{
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#locations h2{
+    width: 1200px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.big_loc_container{
+    display: flex;
+    background-image: url(../Images/img-locations-background.jpg);
+    width: 1200px;
+    height: 500px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-content: center;
+}
+.loc_container{
+    width: 300px;
+    height: 270px;
+    opacity: 1;
+    background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: auto;
+}
+
+.loc_container h3{
+    margin-bottom: 0px;
+}
+.loc_container p{
+    margin: 0px;
+    line-height: 2.5em;
+}
+
+.contact_info{
+    height: 200px;
+    text-align: center;
+}
+
+.contact_info h5{
+    line-height: 3em;
+}
+
+.copyright{
+    margin-left: 20px;
+}
